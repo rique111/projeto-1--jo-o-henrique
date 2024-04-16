@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+}
+
+header, footer {
+    background-color: #333; /* Cor de fundo para cabeçalho e rodapé */
+    color: white; /* Cor do texto para cabeçalho e rodapé */
+    text-align: center; /* Centraliza o texto no cabeçalho e rodapé */
+    padding: 1em; /* Adiciona preenchimento ao redor do conteúdo no cabeçalho e rodapé */
+}
+
+h1, h2 {
+    color: #333; /* Define a cor do texto para os títulos */
+}
+
+#sobre-mim, #projetos {
+    margin: 20px; /* Adiciona margem ao redor das seções */
+    padding: 20px; /* Adiciona preenchimento dentro das seções */
+    background-color: white; /* Define a cor de fundo das seções */
+}
+
+a {
+    color: #007bff; /* Define a cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+
+/* Estilos específicos para Projeto 1 */
+.projeto1-container {
+    background-color: #eaeaea;
+    padding: 20px;
+}
+
+.projeto1-titulo {
+    color: #007bff;
+}
+
+/* Estilos específicos para Projeto 2 */
+.projeto2-container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.projeto2-titulo {
+    color: #28a745;
+}
